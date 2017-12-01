@@ -2,20 +2,19 @@ import SpriteKit
 import GameplayKit
 import AVFoundation
 
-class PianoScene1: SKScene, AVAudioPlayerDelegate {
+class PianoScene1_2: SKScene, AVAudioPlayerDelegate {
     
     private var instructionAudio:AVAudioPlayer?
     private var correctAudio: AVAudioPlayer?
     private var targetItem:SKSpriteNode?
-    private var targetItem2:SKSpriteNode?
     
     override func didMove(to view: SKView) {
         //Add the SpriteNode for instruction item
         self.targetItem = self.childNode(withName: "targetItem") as? SKSpriteNode
         
         //Create the URL for the audio files
-        let instructionPath = Bundle.main.path(forResource: "Now it's time to play some music touch the yellow key", ofType:"wav")!
-        let correctPath = Bundle.main.path(forResource: "A", ofType:".wav")!
+        let instructionPath = Bundle.main.path(forResource: "Are you ready for more Now find the bathtub", ofType:"wav")!
+        let correctPath = Bundle.main.path(forResource: "E", ofType:".wav")!
         let InstructionUrl = URL(fileURLWithPath: instructionPath)
         let correctUrl = URL(fileURLWithPath: correctPath)
         
@@ -46,7 +45,7 @@ class PianoScene1: SKScene, AVAudioPlayerDelegate {
         if (targetItem?.contains((position)!))!{
             correctAudio?.play()
             print("Correct was played")
-            let newScene = SKScene(fileNamed: "PianoScene1_2")
+            let newScene = SKScene(fileNamed: "PianoScene2")
             let fade = SKTransition.fade(withDuration: 0.7)
             self.scene?.view?.presentScene(newScene!, transition: fade)
         }
@@ -59,3 +58,4 @@ class PianoScene1: SKScene, AVAudioPlayerDelegate {
         print("delegate activated")
     }
 }
+
