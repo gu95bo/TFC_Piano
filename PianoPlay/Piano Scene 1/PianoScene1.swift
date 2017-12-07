@@ -15,7 +15,7 @@ class PianoScene1: SKScene, AVAudioPlayerDelegate {
         
         //Create the URL for the audio files
         let instructionPath = Bundle.main.path(forResource: "Now it's time to play some music touch the yellow key", ofType:"wav")!
-        let correctPath = Bundle.main.path(forResource: "A", ofType:".wav")!
+        let correctPath = Bundle.main.path(forResource: "G", ofType:".wav")!
         let InstructionUrl = URL(fileURLWithPath: instructionPath)
         let correctUrl = URL(fileURLWithPath: correctPath)
         
@@ -43,19 +43,22 @@ class PianoScene1: SKScene, AVAudioPlayerDelegate {
         let position = touch?.location(in: self)
         
         //if the location of the touch is in the space of the target location, play piano note and transition screens
+        correctAudio?.delegate = self
         if (targetItem?.contains((position)!))!{
             correctAudio?.play()
-            print("Correct was played")
-            let newScene = SKScene(fileNamed: "PianoScene1_2")
-            let fade = SKTransition.fade(withDuration: 0.7)
-            self.scene?.view?.presentScene(newScene!, transition: fade)
         }
     }
     
     //event handler for when instruction audio ends
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         //re-enable screen at the end of audio delate playing.
-        self.view?.isUserInteractionEnabled = true
-        print("delegate activated")
+        if player == instructionAudio{
+            self.view?.isUserInteractionEnabled = true
+        }
+        if player == correctAudio{
+            let nextScene = SKScene(fileNamed: "PianoScene2")
+            let fade = SKTransition.crossFade(withDuration: 0.7)
+            self.scene?.view?.presentScene(nextScene!, transition: fade)
+        }
     }
 }

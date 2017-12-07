@@ -2,7 +2,7 @@ import SpriteKit
 import GameplayKit
 import AVFoundation
 
-class PianoScene3: SKScene, AVAudioPlayerDelegate {
+class PianoScene9: SKScene, AVAudioPlayerDelegate {
     
     private var instructionAudio:AVAudioPlayer?
     private var correctAudio: AVAudioPlayer?
@@ -11,8 +11,8 @@ class PianoScene3: SKScene, AVAudioPlayerDelegate {
     override func didMove(to view: SKView) {
         self.targetItem = self.childNode(withName: "targetItem") as? SKSpriteNode
         
-        let instructionPath = Bundle.main.path(forResource: "Find the plate", ofType:"wav")!
-        let correctPath = Bundle.main.path(forResource: "B", ofType:".wav")!
+        let instructionPath = Bundle.main.path(forResource: "find the dress", ofType:"wav")!
+        let correctPath = Bundle.main.path(forResource: "melody 4", ofType:".wav")!
         let InstructionUrl = URL(fileURLWithPath: instructionPath)
         let correctUrl = URL(fileURLWithPath: correctPath)
         
@@ -40,10 +40,12 @@ class PianoScene3: SKScene, AVAudioPlayerDelegate {
         if player == instructionAudio{
             self.view?.isUserInteractionEnabled = true
         }
-        if player == correctAudio{
-            let nextScene = SKScene(fileNamed: "PianoScene4")
-            let fade = SKTransition.crossFade(withDuration: 0.7)
-            self.scene?.view?.presentScene(nextScene!, transition: fade)
-        }
+//        if player == correctAudio{
+//            let nextScene = SKScene(fileNamed: "PianoScene1")
+//            let fade = SKTransition.crossFade(withDuration: 0.7)
+//            self.scene?.view?.presentScene(nextScene!, transition: fade)
+//        }
     }
 }
+
+

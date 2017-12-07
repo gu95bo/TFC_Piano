@@ -15,27 +15,38 @@
 		0B2260B61FCFE5DA0077C632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260B41FCFE5DA0077C632 /* Main.storyboard */; };
 		0B2260B81FCFE5DA0077C632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260B71FCFE5DA0077C632 /* Assets.xcassets */; };
 		0B2260BB1FCFE5DA0077C632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260B91FCFE5DA0077C632 /* LaunchScreen.storyboard */; };
-		0B2260ED1FCFFC3E0077C632 /* PianoScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2260EC1FCFFC3E0077C632 /* PianoScene2.swift */; };
-		0B2260F11FCFFDEB0077C632 /* PianoScene2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260F01FCFFDEB0077C632 /* PianoScene2.sks */; };
-		0B2260F61FD006310077C632 /* PianoScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2260F51FD006310077C632 /* PianoScene3.swift */; };
-		0B2260F81FD006840077C632 /* PianoScene3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260F71FD006840077C632 /* PianoScene3.sks */; };
-		0B2260FD1FD00AAD0077C632 /* PianoScene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2260FC1FD00AAD0077C632 /* PianoScene4.swift */; };
-		0B2260FF1FD00ABA0077C632 /* PianoScene4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260FE1FD00ABA0077C632 /* PianoScene4.sks */; };
-		0B621C441FD1132C00DEFF92 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C431FD1132B00DEFF92 /* A.wav */; };
-		0B621C461FD1133D00DEFF92 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C451FD1133D00DEFF92 /* B.wav */; };
-		0B621C481FD1134600DEFF92 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C471FD1134600DEFF92 /* D.wav */; };
-		0B621C4A1FD1134D00DEFF92 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C491FD1134D00DEFF92 /* E.wav */; };
-		0B621C4C1FD1135200DEFF92 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C4B1FD1135200DEFF92 /* F.wav */; };
-		0B621C4E1FD1135800DEFF92 /* Find the glasses.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C4D1FD1135800DEFF92 /* Find the glasses.wav */; };
-		0B621C501FD1136000DEFF92 /* Find the plate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C4F1FD1136000DEFF92 /* Find the plate.wav */; };
-		0B621C521FD1136700DEFF92 /* Find the shovel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C511FD1136700DEFF92 /* Find the shovel.wav */; };
-		0B621C541FD1136D00DEFF92 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C531FD1136D00DEFF92 /* G.wav */; };
-		0B621C561FD1137700DEFF92 /* High C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C551FD1137700DEFF92 /* High C.wav */; };
-		0B621C581FD1137E00DEFF92 /* Low C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C571FD1137E00DEFF92 /* Low C.wav */; };
-		0B621C5C1FD113A700DEFF92 /* Now it's time to play some music touch the yellow key.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C5B1FD113A700DEFF92 /* Now it's time to play some music touch the yellow key.wav */; };
-		0B621C601FD1151F00DEFF92 /* PianoScene1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B621C5F1FD1151F00DEFF92 /* PianoScene1_2.swift */; };
-		0B621C621FD1153200DEFF92 /* PianoScene1_2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C611FD1153200DEFF92 /* PianoScene1_2.sks */; };
-		0B621C641FD1182200DEFF92 /* Are you ready for more Now find the bathtub.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C631FD1182200DEFF92 /* Are you ready for more Now find the bathtub.wav */; };
+		0B2260ED1FCFFC3E0077C632 /* PianoScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2260EC1FCFFC3E0077C632 /* PianoScene3.swift */; };
+		0B2260F11FCFFDEB0077C632 /* PianoScene3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260F01FCFFDEB0077C632 /* PianoScene3.sks */; };
+		0B2260F61FD006310077C632 /* PianoScene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2260F51FD006310077C632 /* PianoScene4.swift */; };
+		0B2260F81FD006840077C632 /* PianoScene4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260F71FD006840077C632 /* PianoScene4.sks */; };
+		0B2260FD1FD00AAD0077C632 /* PianoScene5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2260FC1FD00AAD0077C632 /* PianoScene5.swift */; };
+		0B2260FF1FD00ABA0077C632 /* PianoScene5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2260FE1FD00ABA0077C632 /* PianoScene5.sks */; };
+		0B621C601FD1151F00DEFF92 /* PianoScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B621C5F1FD1151F00DEFF92 /* PianoScene2.swift */; };
+		0B621C621FD1153200DEFF92 /* PianoScene2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B621C611FD1153200DEFF92 /* PianoScene2.sks */; };
+		0BBDE1071FD6371200B8B579 /* Now it's time to play some music touch the yellow key.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE1061FD6371200B8B579 /* Now it's time to play some music touch the yellow key.wav */; };
+		0BBDE1091FD6374E00B8B579 /* Are you ready for more Now find the bathtub.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE1081FD6374E00B8B579 /* Are you ready for more Now find the bathtub.wav */; };
+		0BBDE10B1FD6383700B8B579 /* Find the plate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE10A1FD6383700B8B579 /* Find the plate.wav */; };
+		0BBDE10D1FD6384F00B8B579 /* Find the shovel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE10C1FD6384E00B8B579 /* Find the shovel.wav */; };
+		0BBDE10F1FD638D000B8B579 /* Find the glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE10E1FD638D000B8B579 /* Find the glass.wav */; };
+		0BBDE1111FD638F500B8B579 /* find the jacket.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE1101FD638F500B8B579 /* find the jacket.wav */; };
+		0BBDE1131FD6390100B8B579 /* find the giraffe.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE1121FD6390100B8B579 /* find the giraffe.wav */; };
+		0BBDE1151FD6395000B8B579 /* find the dress.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE1141FD6395000B8B579 /* find the dress.wav */; };
+		0BBDE1171FD6395900B8B579 /* find the cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE1161FD6395900B8B579 /* find the cat.wav */; };
+		0BBDE1191FD639D500B8B579 /* melody 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE1181FD639D500B8B579 /* melody 1.wav */; };
+		0BBDE11B1FD639DA00B8B579 /* melody 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE11A1FD639D900B8B579 /* melody 2.wav */; };
+		0BBDE11D1FD639E000B8B579 /* melody 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE11C1FD639E000B8B579 /* melody 3.wav */; };
+		0BBDE11F1FD63A2100B8B579 /* melody 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BBDE11E1FD63A2100B8B579 /* melody 4.wav */; };
+		0BDB7D4A1FD8CF6100DE171F /* PianoScene6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB7D491FD8CF6100DE171F /* PianoScene6.swift */; };
+		0BDB7D4C1FD8D71F00DE171F /* PianoScene7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB7D4B1FD8D71F00DE171F /* PianoScene7.swift */; };
+		0BDB7D4E1FD8DBD900DE171F /* PianoScene9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB7D4D1FD8DBD900DE171F /* PianoScene9.swift */; };
+		0BDB7D501FD8DC1F00DE171F /* PianoScene8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB7D4F1FD8DC1F00DE171F /* PianoScene8.swift */; };
+		0BDB7D541FD8DE9B00DE171F /* PianoScene6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB7D531FD8DE9B00DE171F /* PianoScene6.sks */; };
+		0BDB7D561FD8E09E00DE171F /* PianoScene7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB7D551FD8E09E00DE171F /* PianoScene7.sks */; };
+		0BDB7D581FD8E19F00DE171F /* PianoScene8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB7D571FD8E19F00DE171F /* PianoScene8.sks */; };
+		0BDB7D5A1FD8E1F900DE171F /* PianoScene9.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB7D591FD8E1F900DE171F /* PianoScene9.sks */; };
+		0BDB7D601FD8E56600DE171F /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB7D5F1FD8E56600DE171F /* B.wav */; };
+		0BDB7D621FD8E59600DE171F /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB7D611FD8E59600DE171F /* D.wav */; };
+		0BDB7D641FD8E59B00DE171F /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BDB7D631FD8E59B00DE171F /* G.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,27 +60,38 @@
 		0B2260B71FCFE5DA0077C632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2260BA1FCFE5DA0077C632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2260BC1FCFE5DA0077C632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B2260EC1FCFFC3E0077C632 /* PianoScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene2.swift; sourceTree = "<group>"; };
-		0B2260F01FCFFDEB0077C632 /* PianoScene2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene2.sks; sourceTree = "<group>"; };
-		0B2260F51FD006310077C632 /* PianoScene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene3.swift; sourceTree = "<group>"; };
-		0B2260F71FD006840077C632 /* PianoScene3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene3.sks; sourceTree = "<group>"; };
-		0B2260FC1FD00AAD0077C632 /* PianoScene4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene4.swift; sourceTree = "<group>"; };
-		0B2260FE1FD00ABA0077C632 /* PianoScene4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene4.sks; sourceTree = "<group>"; };
-		0B621C431FD1132B00DEFF92 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
-		0B621C451FD1133D00DEFF92 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
-		0B621C471FD1134600DEFF92 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
-		0B621C491FD1134D00DEFF92 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
-		0B621C4B1FD1135200DEFF92 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
-		0B621C4D1FD1135800DEFF92 /* Find the glasses.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Find the glasses.wav"; sourceTree = "<group>"; };
-		0B621C4F1FD1136000DEFF92 /* Find the plate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Find the plate.wav"; sourceTree = "<group>"; };
-		0B621C511FD1136700DEFF92 /* Find the shovel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Find the shovel.wav"; sourceTree = "<group>"; };
-		0B621C531FD1136D00DEFF92 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
-		0B621C551FD1137700DEFF92 /* High C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "High C.wav"; sourceTree = "<group>"; };
-		0B621C571FD1137E00DEFF92 /* Low C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Low C.wav"; sourceTree = "<group>"; };
-		0B621C5B1FD113A700DEFF92 /* Now it's time to play some music touch the yellow key.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Now it's time to play some music touch the yellow key.wav"; sourceTree = "<group>"; };
-		0B621C5F1FD1151F00DEFF92 /* PianoScene1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene1_2.swift; sourceTree = "<group>"; };
-		0B621C611FD1153200DEFF92 /* PianoScene1_2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene1_2.sks; sourceTree = "<group>"; };
-		0B621C631FD1182200DEFF92 /* Are you ready for more Now find the bathtub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Are you ready for more Now find the bathtub.wav"; sourceTree = "<group>"; };
+		0B2260EC1FCFFC3E0077C632 /* PianoScene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene3.swift; sourceTree = "<group>"; };
+		0B2260F01FCFFDEB0077C632 /* PianoScene3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene3.sks; sourceTree = "<group>"; };
+		0B2260F51FD006310077C632 /* PianoScene4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene4.swift; sourceTree = "<group>"; };
+		0B2260F71FD006840077C632 /* PianoScene4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene4.sks; sourceTree = "<group>"; };
+		0B2260FC1FD00AAD0077C632 /* PianoScene5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene5.swift; sourceTree = "<group>"; };
+		0B2260FE1FD00ABA0077C632 /* PianoScene5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene5.sks; sourceTree = "<group>"; };
+		0B621C5F1FD1151F00DEFF92 /* PianoScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene2.swift; sourceTree = "<group>"; };
+		0B621C611FD1153200DEFF92 /* PianoScene2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene2.sks; sourceTree = "<group>"; };
+		0BBDE1061FD6371200B8B579 /* Now it's time to play some music touch the yellow key.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Now it's time to play some music touch the yellow key.wav"; sourceTree = "<group>"; };
+		0BBDE1081FD6374E00B8B579 /* Are you ready for more Now find the bathtub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Are you ready for more Now find the bathtub.wav"; sourceTree = "<group>"; };
+		0BBDE10A1FD6383700B8B579 /* Find the plate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Find the plate.wav"; sourceTree = "<group>"; };
+		0BBDE10C1FD6384E00B8B579 /* Find the shovel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Find the shovel.wav"; sourceTree = "<group>"; };
+		0BBDE10E1FD638D000B8B579 /* Find the glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Find the glass.wav"; sourceTree = "<group>"; };
+		0BBDE1101FD638F500B8B579 /* find the jacket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "find the jacket.wav"; sourceTree = "<group>"; };
+		0BBDE1121FD6390100B8B579 /* find the giraffe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "find the giraffe.wav"; sourceTree = "<group>"; };
+		0BBDE1141FD6395000B8B579 /* find the dress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "find the dress.wav"; sourceTree = "<group>"; };
+		0BBDE1161FD6395900B8B579 /* find the cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "find the cat.wav"; sourceTree = "<group>"; };
+		0BBDE1181FD639D500B8B579 /* melody 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "melody 1.wav"; sourceTree = "<group>"; };
+		0BBDE11A1FD639D900B8B579 /* melody 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "melody 2.wav"; sourceTree = "<group>"; };
+		0BBDE11C1FD639E000B8B579 /* melody 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "melody 3.wav"; sourceTree = "<group>"; };
+		0BBDE11E1FD63A2100B8B579 /* melody 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "melody 4.wav"; sourceTree = "<group>"; };
+		0BDB7D491FD8CF6100DE171F /* PianoScene6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene6.swift; sourceTree = "<group>"; };
+		0BDB7D4B1FD8D71F00DE171F /* PianoScene7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene7.swift; sourceTree = "<group>"; };
+		0BDB7D4D1FD8DBD900DE171F /* PianoScene9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene9.swift; sourceTree = "<group>"; };
+		0BDB7D4F1FD8DC1F00DE171F /* PianoScene8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoScene8.swift; sourceTree = "<group>"; };
+		0BDB7D531FD8DE9B00DE171F /* PianoScene6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene6.sks; sourceTree = "<group>"; };
+		0BDB7D551FD8E09E00DE171F /* PianoScene7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene7.sks; sourceTree = "<group>"; };
+		0BDB7D571FD8E19F00DE171F /* PianoScene8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene8.sks; sourceTree = "<group>"; };
+		0BDB7D591FD8E1F900DE171F /* PianoScene9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PianoScene9.sks; sourceTree = "<group>"; };
+		0BDB7D5F1FD8E56600DE171F /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		0BDB7D611FD8E59600DE171F /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		0BDB7D631FD8E59B00DE171F /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +126,21 @@
 			children = (
 				0B621C421FD1130100DEFF92 /* Audio */,
 				0B2260D81FCFF7B10077C632 /* Piano Scene 1 */,
-				0B621C5E1FD114FE00DEFF92 /* Piano1_2 */,
-				0B2260E71FCFFB8E0077C632 /* Piano Scene 2 */,
-				0B2260F41FD005780077C632 /* Piano Scene 3 */,
-				0B2260FB1FD00A900077C632 /* Piano Scene 4 */,
-				0B2260B21FCFE5DA0077C632 /* GameViewController.swift */,
-				0B2260AA1FCFE5DA0077C632 /* AppDelegate.swift */,
+				0B621C5E1FD114FE00DEFF92 /* Piano Scene 2 */,
+				0B2260E71FCFFB8E0077C632 /* Piano Scene 3 */,
+				0B2260F41FD005780077C632 /* Piano Scene 4 */,
+				0B2260FB1FD00A900077C632 /* Piano Scene 5 */,
+				0BDB7D451FD8CAC800DE171F /* Piano Scene 6 */,
+				0BDB7D461FD8CADE00DE171F /* Piano Scene 7 */,
+				0BDB7D471FD8CBE300DE171F /* Piano Scene 8 */,
+				0BDB7D481FD8CC8000DE171F /* Piano Scene 9 */,
 				0B2260AE1FCFE5DA0077C632 /* Actions.sks */,
-				0B2260B41FCFE5DA0077C632 /* Main.storyboard */,
+				0B2260AA1FCFE5DA0077C632 /* AppDelegate.swift */,
 				0B2260B71FCFE5DA0077C632 /* Assets.xcassets */,
-				0B2260B91FCFE5DA0077C632 /* LaunchScreen.storyboard */,
+				0B2260B21FCFE5DA0077C632 /* GameViewController.swift */,
 				0B2260BC1FCFE5DA0077C632 /* Info.plist */,
+				0B2260B91FCFE5DA0077C632 /* LaunchScreen.storyboard */,
+				0B2260B41FCFE5DA0077C632 /* Main.storyboard */,
 			);
 			path = PianoPlay;
 			sourceTree = "<group>";
@@ -128,60 +154,99 @@
 			path = "Piano Scene 1";
 			sourceTree = "<group>";
 		};
-		0B2260E71FCFFB8E0077C632 /* Piano Scene 2 */ = {
+		0B2260E71FCFFB8E0077C632 /* Piano Scene 3 */ = {
 			isa = PBXGroup;
 			children = (
-				0B2260EC1FCFFC3E0077C632 /* PianoScene2.swift */,
-				0B2260F01FCFFDEB0077C632 /* PianoScene2.sks */,
-			);
-			path = "Piano Scene 2";
-			sourceTree = "<group>";
-		};
-		0B2260F41FD005780077C632 /* Piano Scene 3 */ = {
-			isa = PBXGroup;
-			children = (
-				0B2260F51FD006310077C632 /* PianoScene3.swift */,
-				0B2260F71FD006840077C632 /* PianoScene3.sks */,
+				0B2260EC1FCFFC3E0077C632 /* PianoScene3.swift */,
+				0B2260F01FCFFDEB0077C632 /* PianoScene3.sks */,
 			);
 			path = "Piano Scene 3";
 			sourceTree = "<group>";
 		};
-		0B2260FB1FD00A900077C632 /* Piano Scene 4 */ = {
+		0B2260F41FD005780077C632 /* Piano Scene 4 */ = {
 			isa = PBXGroup;
 			children = (
-				0B2260FC1FD00AAD0077C632 /* PianoScene4.swift */,
-				0B2260FE1FD00ABA0077C632 /* PianoScene4.sks */,
+				0B2260F51FD006310077C632 /* PianoScene4.swift */,
+				0B2260F71FD006840077C632 /* PianoScene4.sks */,
 			);
 			path = "Piano Scene 4";
+			sourceTree = "<group>";
+		};
+		0B2260FB1FD00A900077C632 /* Piano Scene 5 */ = {
+			isa = PBXGroup;
+			children = (
+				0B2260FC1FD00AAD0077C632 /* PianoScene5.swift */,
+				0B2260FE1FD00ABA0077C632 /* PianoScene5.sks */,
+			);
+			path = "Piano Scene 5";
 			sourceTree = "<group>";
 		};
 		0B621C421FD1130100DEFF92 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				0B621C431FD1132B00DEFF92 /* A.wav */,
-				0B621C451FD1133D00DEFF92 /* B.wav */,
-				0B621C551FD1137700DEFF92 /* High C.wav */,
-				0B621C571FD1137E00DEFF92 /* Low C.wav */,
-				0B621C471FD1134600DEFF92 /* D.wav */,
-				0B621C491FD1134D00DEFF92 /* E.wav */,
-				0B621C4B1FD1135200DEFF92 /* F.wav */,
-				0B621C531FD1136D00DEFF92 /* G.wav */,
-				0B621C5B1FD113A700DEFF92 /* Now it's time to play some music touch the yellow key.wav */,
-				0B621C631FD1182200DEFF92 /* Are you ready for more Now find the bathtub.wav */,
-				0B621C511FD1136700DEFF92 /* Find the shovel.wav */,
-				0B621C4F1FD1136000DEFF92 /* Find the plate.wav */,
-				0B621C4D1FD1135800DEFF92 /* Find the glasses.wav */,
+				0BDB7D5F1FD8E56600DE171F /* B.wav */,
+				0BDB7D611FD8E59600DE171F /* D.wav */,
+				0BDB7D631FD8E59B00DE171F /* G.wav */,
+				0BBDE1061FD6371200B8B579 /* Now it's time to play some music touch the yellow key.wav */,
+				0BBDE1081FD6374E00B8B579 /* Are you ready for more Now find the bathtub.wav */,
+				0BBDE10A1FD6383700B8B579 /* Find the plate.wav */,
+				0BBDE10E1FD638D000B8B579 /* Find the glass.wav */,
+				0BBDE10C1FD6384E00B8B579 /* Find the shovel.wav */,
+				0BBDE1101FD638F500B8B579 /* find the jacket.wav */,
+				0BBDE1121FD6390100B8B579 /* find the giraffe.wav */,
+				0BBDE1141FD6395000B8B579 /* find the dress.wav */,
+				0BBDE1161FD6395900B8B579 /* find the cat.wav */,
+				0BBDE1181FD639D500B8B579 /* melody 1.wav */,
+				0BBDE11A1FD639D900B8B579 /* melody 2.wav */,
+				0BBDE11C1FD639E000B8B579 /* melody 3.wav */,
+				0BBDE11E1FD63A2100B8B579 /* melody 4.wav */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
 		};
-		0B621C5E1FD114FE00DEFF92 /* Piano1_2 */ = {
+		0B621C5E1FD114FE00DEFF92 /* Piano Scene 2 */ = {
 			isa = PBXGroup;
 			children = (
-				0B621C5F1FD1151F00DEFF92 /* PianoScene1_2.swift */,
-				0B621C611FD1153200DEFF92 /* PianoScene1_2.sks */,
+				0B621C5F1FD1151F00DEFF92 /* PianoScene2.swift */,
+				0B621C611FD1153200DEFF92 /* PianoScene2.sks */,
 			);
-			path = Piano1_2;
+			path = "Piano Scene 2";
+			sourceTree = "<group>";
+		};
+		0BDB7D451FD8CAC800DE171F /* Piano Scene 6 */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB7D491FD8CF6100DE171F /* PianoScene6.swift */,
+				0BDB7D531FD8DE9B00DE171F /* PianoScene6.sks */,
+			);
+			path = "Piano Scene 6";
+			sourceTree = "<group>";
+		};
+		0BDB7D461FD8CADE00DE171F /* Piano Scene 7 */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB7D4B1FD8D71F00DE171F /* PianoScene7.swift */,
+				0BDB7D551FD8E09E00DE171F /* PianoScene7.sks */,
+			);
+			path = "Piano Scene 7";
+			sourceTree = "<group>";
+		};
+		0BDB7D471FD8CBE300DE171F /* Piano Scene 8 */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB7D4F1FD8DC1F00DE171F /* PianoScene8.swift */,
+				0BDB7D571FD8E19F00DE171F /* PianoScene8.sks */,
+			);
+			path = "Piano Scene 8";
+			sourceTree = "<group>";
+		};
+		0BDB7D481FD8CC8000DE171F /* Piano Scene 9 */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB7D4D1FD8DBD900DE171F /* PianoScene9.swift */,
+				0BDB7D591FD8E1F900DE171F /* PianoScene9.sks */,
+			);
+			path = "Piano Scene 9";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,28 +308,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B621C481FD1134600DEFF92 /* D.wav in Resources */,
-				0B621C441FD1132C00DEFF92 /* A.wav in Resources */,
-				0B621C521FD1136700DEFF92 /* Find the shovel.wav in Resources */,
-				0B621C461FD1133D00DEFF92 /* B.wav in Resources */,
+				0BBDE11B1FD639DA00B8B579 /* melody 2.wav in Resources */,
 				0B2260B61FCFE5DA0077C632 /* Main.storyboard in Resources */,
-				0B621C4C1FD1135200DEFF92 /* F.wav in Resources */,
-				0B621C541FD1136D00DEFF92 /* G.wav in Resources */,
 				0B2260AD1FCFE5DA0077C632 /* PianoScene1.sks in Resources */,
+				0BBDE10B1FD6383700B8B579 /* Find the plate.wav in Resources */,
 				0B2260B81FCFE5DA0077C632 /* Assets.xcassets in Resources */,
-				0B621C4A1FD1134D00DEFF92 /* E.wav in Resources */,
-				0B621C501FD1136000DEFF92 /* Find the plate.wav in Resources */,
 				0B2260BB1FCFE5DA0077C632 /* LaunchScreen.storyboard in Resources */,
-				0B2260F11FCFFDEB0077C632 /* PianoScene2.sks in Resources */,
-				0B621C4E1FD1135800DEFF92 /* Find the glasses.wav in Resources */,
-				0B621C581FD1137E00DEFF92 /* Low C.wav in Resources */,
-				0B2260FF1FD00ABA0077C632 /* PianoScene4.sks in Resources */,
-				0B621C561FD1137700DEFF92 /* High C.wav in Resources */,
-				0B621C641FD1182200DEFF92 /* Are you ready for more Now find the bathtub.wav in Resources */,
-				0B2260F81FD006840077C632 /* PianoScene3.sks in Resources */,
-				0B621C621FD1153200DEFF92 /* PianoScene1_2.sks in Resources */,
-				0B621C5C1FD113A700DEFF92 /* Now it's time to play some music touch the yellow key.wav in Resources */,
+				0BDB7D5A1FD8E1F900DE171F /* PianoScene9.sks in Resources */,
+				0BDB7D581FD8E19F00DE171F /* PianoScene8.sks in Resources */,
+				0BDB7D641FD8E59B00DE171F /* G.wav in Resources */,
+				0BBDE1111FD638F500B8B579 /* find the jacket.wav in Resources */,
+				0BDB7D621FD8E59600DE171F /* D.wav in Resources */,
+				0BBDE1171FD6395900B8B579 /* find the cat.wav in Resources */,
+				0BBDE1131FD6390100B8B579 /* find the giraffe.wav in Resources */,
+				0B2260F11FCFFDEB0077C632 /* PianoScene3.sks in Resources */,
+				0BBDE10F1FD638D000B8B579 /* Find the glass.wav in Resources */,
+				0BBDE1191FD639D500B8B579 /* melody 1.wav in Resources */,
+				0BBDE10D1FD6384F00B8B579 /* Find the shovel.wav in Resources */,
+				0B2260FF1FD00ABA0077C632 /* PianoScene5.sks in Resources */,
+				0BBDE1091FD6374E00B8B579 /* Are you ready for more Now find the bathtub.wav in Resources */,
+				0B2260F81FD006840077C632 /* PianoScene4.sks in Resources */,
+				0BBDE11F1FD63A2100B8B579 /* melody 4.wav in Resources */,
+				0BDB7D601FD8E56600DE171F /* B.wav in Resources */,
+				0BBDE1151FD6395000B8B579 /* find the dress.wav in Resources */,
+				0B621C621FD1153200DEFF92 /* PianoScene2.sks in Resources */,
+				0BDB7D541FD8DE9B00DE171F /* PianoScene6.sks in Resources */,
+				0BBDE1071FD6371200B8B579 /* Now it's time to play some music touch the yellow key.wav in Resources */,
 				0B2260AF1FCFE5DA0077C632 /* Actions.sks in Resources */,
+				0BDB7D561FD8E09E00DE171F /* PianoScene7.sks in Resources */,
+				0BBDE11D1FD639E000B8B579 /* melody 3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +347,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B2260F61FD006310077C632 /* PianoScene3.swift in Sources */,
+				0B2260F61FD006310077C632 /* PianoScene4.swift in Sources */,
 				0B2260B11FCFE5DA0077C632 /* PianoScene1.swift in Sources */,
 				0B2260B31FCFE5DA0077C632 /* GameViewController.swift in Sources */,
-				0B621C601FD1151F00DEFF92 /* PianoScene1_2.swift in Sources */,
-				0B2260FD1FD00AAD0077C632 /* PianoScene4.swift in Sources */,
+				0BDB7D501FD8DC1F00DE171F /* PianoScene8.swift in Sources */,
+				0B621C601FD1151F00DEFF92 /* PianoScene2.swift in Sources */,
+				0BDB7D4E1FD8DBD900DE171F /* PianoScene9.swift in Sources */,
+				0B2260FD1FD00AAD0077C632 /* PianoScene5.swift in Sources */,
+				0BDB7D4C1FD8D71F00DE171F /* PianoScene7.swift in Sources */,
 				0B2260AB1FCFE5DA0077C632 /* AppDelegate.swift in Sources */,
-				0B2260ED1FCFFC3E0077C632 /* PianoScene2.swift in Sources */,
+				0B2260ED1FCFFC3E0077C632 /* PianoScene3.swift in Sources */,
+				0BDB7D4A1FD8CF6100DE171F /* PianoScene6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
